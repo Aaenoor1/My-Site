@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background: #081c24;
+    color: #ffffff;
+    line-height:  1.6;
+}
+
+nav{
+    border-bottom: 5px solid #f0c808;
+}
+nav > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+}
+nav > ul> li{
+    display: inline-block;
+    padding: 15px 0 0 0;
+    margin: 0 10px;
+}
+
+nav > ul> li >a{
+    color: white;
+     text-decoration: none;
+     transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav > ul> li >a:hover{
+    color: #f0c808;
+    transform: scale(1.1);
+}
+
+#bottom-nav{
+    text-align: center;
+}
+
+#about > h2{
+    padding: 20px;
+    border-bottom: 5px solid #f0c808;
+}
+
+
+h1, h2{
+    color: #f0c808;
+    margin: 20px 0; 
+    text-align: center;            
+}
+
+p{
+    margin: 20px 0;
+}
+#hobbies > h2{
+    padding: 20px;
+    border-bottom: 5px solid #f0c808;
+}
+/* games list images */
+.games-list img{
+    width: auto;
+    height: 15em; 
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.games-list img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+
+.games-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    border-bottom: 5px solid #f0c808;
+}
+
+.games-list li{
+    text-align: center;
+}
+
+#hobbies {
+  border-bottom: 5px solid #f0c808;
+  border-top: 5px solid #f0c808;
+    
+ }
+
+/* anime list images */
+.anime-list img{
+    width: auto;
+    height: 15em;
+    transition: transform 0.3s ease, filter 0.3s ease; 
+}
+.anime-list img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.anime-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    border-bottom: 5px solid #f0c808;
+
+}
+.anime-list li{
+    text-align: center;
+}
+
+/* car list images */
+
+.cars-list img{
+    width: 15em;
+    height: auto; 
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.cars-list img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+.cars-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+}
+.cars-list li{
+    text-align: center;
+}
+
+/*projects*/
+
+#projects .projects-list a {
+    color: #f0c808;
+    text-decoration: underline;
+    font-size: large;
+}
+#projects .projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 20px;
+    border-bottom: 5px solid #f0c808;
+}
+#projects > h2{
+    border-bottom: 5px solid #f0c808;
+    padding-bottom: 20px;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.contact-list li {
+    display: inline-block;
+}
+
+.contact-list img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.contact-list img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+#contact > h2{
+    border-bottom: 5px solid #f0c808;
+    padding: 20px;
+}
+
+#contact > p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #081c24;
+    color: #f0c808;
+    border-top: 5px solid #f0c808;
+}
